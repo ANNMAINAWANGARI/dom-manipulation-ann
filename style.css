@@ -1,0 +1,54 @@
+ 
+ *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+ }
+ h1{
+ color:white;
+ text-align: center;
+ font-size:30px;
+ font-weight:bold;
+ text-decoration: underline;
+ background-color: rgb(98, 94, 161);
+ width:30%;
+ padding:10px;
+ position:relative;
+ left:35%;
+ border:2px solid black;
+}
+.p-tag{
+ font-size:22px;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align:center;
+ padding: 15px;
+}
+nav{
+margin:10px;
+
+}
+#main{
+ display: none;
+ border:2px solid black;
+ text-align:center;
+ z-index:1;
+}
+button{
+ padding:10px;
+ margin:10px 40% ;
+ font-size:18px;
+ border:1px solid black;
+ border-radius: 25px;
+}
+span{
+ float:right;
+ top:0;
+ right:0;
+ font-size:15px;
+ font-weight:bold;
+ border: 1px solid black;
+ background-color: white;
+ width:20px;
+ height:20px;
+ cursor: pointer;
+}
